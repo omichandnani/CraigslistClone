@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+<p class="post-meta">
+<span class ="posted-id"> Post id: <%= @post.id.to_s %> </span>
+    
+    <span class="posted-at"> Posted <%= time_ago_in_words @post.created_at %> ago </span>
+<h1> Title:  <%= @post.title %> </h1>
+<image class = "img-thumbnail" width="500" height: 230px;   src="<%= url_for(@post.post_image) %>"  Description:  <%= simple_format @post.content %> 
+</image>
+<Card>
+</Card>
+   
+
+
+</p>
