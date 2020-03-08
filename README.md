@@ -10,6 +10,6 @@ Things you may want to cover:
 ``` bundle install ```
 ``` rails db:migrate```
 ``` rails server ```
-![Login Page ](./Screen Shot 2020-03-08 at 12.19.21 PM.png)
+![Login Page ](https://github.com/omichandnani/CraigslistClone/blob/master/Screen%20Shot%202020-03-08%20at%2012.19.21%20PM.png)
 
 
