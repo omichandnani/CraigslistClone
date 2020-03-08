@@ -7,9 +7,9 @@ Things you may want to cover:
 
 * Ruby version : ruby 2.7.0p0
 * Database creation : Postgre
-
 ``` bundle install ```
 ``` rails db:migrate```
 ``` rails server ```
+![Login Page ](Screen Shot 2020-03-08 at 12.19.21 PM.png)
 
 
